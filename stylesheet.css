@@ -1,0 +1,191 @@
+body{
+  margin:0;
+  font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+header{
+  background-image:url("img2.jpg");
+  background-size:cover;
+  background-position:bottom;
+  height:500px;
+  width:100%;
+  transition:all 5.0s;
+
+
+}
+
+header:active{
+  background-image:url("img1.jpg");
+  background-size:cover;
+  background-position:bottom;
+  height:500px;
+  width:100%;
+
+}
+
+.header1{
+  position:relative;
+  float:left;
+  top:70%;
+  left:70%;
+}
+.header1 p{
+  color:white;
+  opacity:0.8;
+}
+.header1 h1{
+  color:white;
+  font-weight:normal;
+  opacity:0.8;
+}
+
+
+
+
+
+.career{
+  height:700px;
+  width:100%;
+}
+
+.career h1{
+  text-align:center;
+  margin-top:100px;
+  margin-bottom:100px;
+  font-weight:normal;
+  font-size:60px;
+  border-bottom:1px solid #eee;
+ 
+}
+
+.career h2{
+  text-align:center;
+  margin-bottom:50px;
+  font-weight:normal;
+
+}
+
+.career h3{
+  text-align:center;
+  margin-bottom:20px;
+  font-weight:normal;
+  
+}
+
+p{
+  text-align:center;
+  margin-bottom:100px;
+  color:#808080;
+  opacity:0.8;
+}
+
+.careers p{
+  text-align:center;
+  display:block;
+  width:60%;
+  margin:0 auto;
+  color:#808080;
+  opacity:0.8;
+  
+
+}
+
+.careers{
+  width:33%;
+  float:left;
+}
+
+.hobbys{
+  width:33%;
+  float:left;
+}
+
+.hobby1{
+  width:100%;
+}
+
+.hobby h1{
+  text-align:center;
+  margin-top:100px;
+  margin-bottom:50px;
+  font-weight:normal;
+  font-size:60px;
+  border-bottom:1px solid #eee;
+  
+}
+
+.hobby h3{
+  text-align:center;
+  margin-bottom:20px;
+  font-weight:normal;
+  
+}
+
+.fa{
+  font-size:130px;
+}
+
+.fas{
+  font-size:130px;
+}
+
+.hobby h2{
+  text-align:center;
+}
+.hobby{
+  padding-top:10px;
+  background-color:rgba(230,230,230,0.3);
+  height:700px;
+}
+
+.hobbys p{
+  text-align:center;
+  display:block;
+  width:60%;
+  margin:0 auto;
+  color:#808080;
+  opacity:0.8;
+  
+  
+}
+
+
+input{
+  display:block;
+  width:400px;
+  padding:20px;
+  border:1px solid #dee7ec;
+  margin:0 auto;
+  margin-bottom:50px;
+}
+
+textarea{
+  display:block;
+  width:400px;
+  padding:20px;
+  border:1px solid #dee7ec;
+  margin:0 auto;
+  margin-bottom:50px;
+}
+
+footer p{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
+footer h1{
+  text-align:center;
+  color:black;
+  font-weight:normal;
+  opacity:0.8;
+  margin-top:50px;
+  margin-bottom:50px;
+  font-size:60px;
+  border-bottom:1px solid #eee;
+}
+
+footer{
+  padding-top:50px;
+  height:700px;
+  width:100%;
+}
